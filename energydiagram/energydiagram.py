@@ -330,7 +330,8 @@ class ED:
                 line = Line2D([x1, x2], [y1, y2],
                               ls=i[1],
                               linewidth=i[2],
-                              color=i[3])
+                              color=i[3],
+                              alpha=0.6)
                 self.ax.add_line(line)
 
         for box in self.electons_boxes:
