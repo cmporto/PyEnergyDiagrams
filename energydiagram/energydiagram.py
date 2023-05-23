@@ -241,10 +241,10 @@ class ED:
             self.ax.set_aspect(self.aspect)
 
         self.ax.set_ylabel(ylabel)
-        self.ax.axes.get_xaxis().set_visible(False)
-        self.ax.spines['top'].set_visible(False)
-        self.ax.spines['right'].set_visible(False)
-        self.ax.spines['bottom'].set_visible(False)
+#         self.ax.axes.get_xaxis().set_visible(False)
+#         self.ax.spines['top'].set_visible(False)
+#         self.ax.spines['right'].set_visible(False)
+#         self.ax.spines['bottom'].set_visible(False)
 
         self.__auto_adjust()
 
